@@ -3,7 +3,6 @@ import pickle
 with open('./test/data directory/data_tuples.txt', 'r+b') as file:
     text = file.read()
 list_tuples = pickle.loads(text)
-
 result = []
 for element in list_tuples:
     if element[2] == 1:
